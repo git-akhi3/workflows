@@ -1,0 +1,62 @@
+.Sidebar{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    z-index: 3;
+    background-color: #dcdcdc  !important;
+}
+/* For devices with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+    .Sidebar{
+        width: 80%; /* Adjust as needed */
+    }
+}
+
+/* For devices with a maximum width of 992px */
+@media only screen and (max-width: 992px) {
+    .Sidebar{
+        width: 60%; /* Adjust as needed */
+    }
+}
+
+/* For devices with a maximum width of 1200px */
+@media only screen and (max-width: 1200px) {
+    .Sidebar{
+        width: 40%; /* Adjust as needed */
+    }
+}
+
+.buttons{
+display: inline-flex;
+padding-left: 20px;
+border-radius: 40px;
+font-size: 15px ;
+}
+.trigger-dropdown{
+    width: 100%;
+    height:60px
+}
+.btn{
+    --bs-btn-display: inline;
+    --bs-btn-flex-direction: row;
+}
+
+.offcanvas.offcanvas-end {
+    z-index: 1;
+    top: 65px !important;
+    width: calc(100% - 80%) !important;
+  }
+
+  /* For devices with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+    .offcanvas.offcanvas-start {
+      width: calc(100% - 80%);
+    }
+  }
+  
+  /* For devices with a maximum width of 400px */
+  @media only screen and (max-width: 400px) {
+    .offcanvas.offcanvas.offcanvas-start{
+      width: calc(100% - 75%);
+    }
+  }

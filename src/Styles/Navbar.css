@@ -1,0 +1,12 @@
+.bg-body-tertiary{
+    background-color: #008080 !important;
+    height: 70px;
+    z-index: 2;
+}
+.container-fluid{
+    background-color:#a9a9a9 !important;
+}
+
+.me-auto my-2 my-lg-0{
+    display: inline-flexbox;
+}
